@@ -1,6 +1,8 @@
 # mongoDB-CRUD
 DB Assignment 2 - PBA Web Development
+
 Node.JS, ExpressJS &amp; Handlebars project with MongoDB CRUD operations.
+
 The project uses a three layered structure: Data Access Layer (DAL), Business Logic Layer (BLL) & GUI.
 
 Functionality:
