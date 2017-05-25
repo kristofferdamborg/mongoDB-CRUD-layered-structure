@@ -8,3 +8,5 @@ Functionality:
 3. Delete an item
 4. Get and list all items
 5. Search the list of items
+
+http://i.imgur.com/Dhr9sfJ.png
