@@ -3,6 +3,8 @@ DB Assignment 2 - Node.JS, ExpressJS &amp; Handlebars project with MongoDB CRUD 
 
 Remember to have MongoDB server running (the project uses the standard "test" mongoDB database).
 
+The project uses a 3 layered structure: Data Access Layer (DAL), Business Logic Layer (BLL) & GUI.
+
 Functionality:
 
 1. Create an item
