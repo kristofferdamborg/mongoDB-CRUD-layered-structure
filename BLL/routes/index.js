@@ -6,6 +6,7 @@ var mongo = require('mongodb').MongoClient;
 var objectId = require('mongodb').ObjectID;
 /* Package for checking DB operation results */
 var assert = require('assert');
+var app = require('../../app');
 
 var url = require('../../DAL/db');
 
