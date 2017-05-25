@@ -1,12 +1,16 @@
 var express = require('express');
 var router = express.Router();
+/* MongoDB Driver */
 var mongo = require('mongodb').MongoClient;
+/* To make our item ID an object, since MongoDB does not use string IDs */
 var objectId = require('mongodb').ObjectID;
+/* Package for checking DB operation results */
 var assert = require('assert');
 
+/* DB Connection Path (Uses MongoDBs standard test DB) */
 var url = 'mongodb://localhost:27017/test';
 
-/* GET home page. */
+/* Home Page with GET request for all data */
 router.get('/', function(req, res, next) {
   var resultArray = [];
   mongo.connect(url, function(err, db) {
@@ -22,6 +26,7 @@ router.get('/', function(req, res, next) {
   });
 });
 
+/* Insert Item */
 router.post('/insert', function(req, res, next) {
   var item = {
     title: req.body.title,
@@ -41,6 +46,7 @@ router.post('/insert', function(req, res, next) {
   res.redirect('/');
 });
 
+/* Update Item */
 router.post('/update', function(req, res, next) {
   var item = {
     title: req.body.title,
@@ -62,6 +68,7 @@ router.post('/update', function(req, res, next) {
   res.redirect('/');
 });
 
+/* Delete Item */
 router.post('/delete', function(req, res, next) {
    var id = req.body.id;
 

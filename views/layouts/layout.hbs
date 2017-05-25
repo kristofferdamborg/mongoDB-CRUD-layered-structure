@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>MongoDB CRUD</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.dataTables.min.css">
     <!-- Latest compiled and minified CSS -->
@@ -14,9 +14,11 @@
 
   {{{ body }}}
 
-
+{{!-- dataTables.js require jQuery to function --}}
 <script src="/javascripts/jquery.js"></script>
+{{!-- Interacts with the "All Items" table and implements the search function --}}
 <script src="/javascripts/jquery.dataTables.min.js"></script>
+{{!-- Function to target the table with dataTables.js --}}
 <script>
   $(document).ready(function(){
     $('#data-table').DataTable();
