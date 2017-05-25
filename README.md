@@ -1,6 +1,8 @@
 # mongoDB-CRUD
 DB Assignment 2 - Node.JS, ExpressJS &amp; Handlebars project with MongoDB CRUD operations
 
+Remember to have MongoDB server running.
+
 Functionality:
 
 1. Create an item
@@ -9,4 +11,5 @@ Functionality:
 4. Get and list all items
 5. Search the list of items
 
+GUI:
 http://i.imgur.com/Dhr9sfJ.png
