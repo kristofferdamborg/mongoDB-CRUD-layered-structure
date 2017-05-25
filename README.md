@@ -1,7 +1,7 @@
 # mongoDB-CRUD
 DB Assignment 2 - Node.JS, ExpressJS &amp; Handlebars project with MongoDB CRUD operations
 
-Remember to have MongoDB server running.
+Remember to have MongoDB server running (the project uses the standard "test" mongoDB database).
 
 Functionality:
 
